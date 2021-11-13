@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		276C356827380DDE00CB262E /* MapTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276C356727380DDE00CB262E /* MapTitleView.swift */; };
+		276C356D27380F3200CB262E /* PastTripsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276C356C27380F3200CB262E /* PastTripsTableViewController.swift */; };
+		AB81968F94DFB6AEA7C49B16 /* Pods_MuvilApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A65C9E6AA88C20D8F96C0F /* Pods_MuvilApp.framework */; };
+		E338AB44271A197100A826FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E338AB43271A197100A826FF /* AppDelegate.swift */; };
+		E338AB4B271A197100A826FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E338AB49271A197100A826FF /* Main.storyboard */; };
+		E338AB4D271A197200A826FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E338AB4C271A197200A826FF /* Assets.xcassets */; };
+		E338AB50271A197200A826FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E338AB4E271A197200A826FF /* LaunchScreen.storyboard */; };
+		E338AB5A271A289600A826FF /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E338AB59271A289600A826FF /* LoginViewController.swift */; };
+		E338AB5D271A28B300A826FF /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E338AB5C271A28B300A826FF /* MapViewController.swift */; };
+		E338AB62271A28F500A826FF /* AccountTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E338AB61271A28F500A826FF /* AccountTableViewController.swift */; };
+		E338AB65271A290400A826FF /* AlertsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E338AB64271A290400A826FF /* AlertsTableViewController.swift */; };
+		E338AB68271A292700A826FF /* VideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E338AB67271A292700A826FF /* VideoViewController.swift */; };
+		E338AB6A271A299000A826FF /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E338AB69271A299000A826FF /* TabBarViewController.swift */; };
+		E338AB6D271A2A2C00A826FF /* MobilityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E338AB6C271A2A2C00A826FF /* MobilityTableViewController.swift */; };
+		E338AB70271A2CD400A826FF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E338AB6F271A2CD400A826FF /* MapKit.framework */; };
+		E338AB72271A327D00A826FF /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E338AB71271A327D00A826FF /* AVFoundation.framework */; };
+		E39A61D0271B642700B82ACC /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = E39A61CF271B642700B82ACC /* Client.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		276C356727380DDE00CB262E /* MapTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapTitleView.swift; sourceTree = "<group>"; };
+		276C356C27380F3200CB262E /* PastTripsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastTripsTableViewController.swift; sourceTree = "<group>"; };
+		34A65C9E6AA88C20D8F96C0F /* Pods_MuvilApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuvilApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6699593DF0FE8DC2D7CBD52D /* Pods-MuvilApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuvilApp.release.xcconfig"; path = "Target Support Files/Pods-MuvilApp/Pods-MuvilApp.release.xcconfig"; sourceTree = "<group>"; };
+		BD2A1C210F4BD0D3F31C2E4B /* Pods-MuvilApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuvilApp.debug.xcconfig"; path = "Target Support Files/Pods-MuvilApp/Pods-MuvilApp.debug.xcconfig"; sourceTree = "<group>"; };
+		E338AB40271A197100A826FF /* MuvilApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuvilApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E338AB43271A197100A826FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E338AB4A271A197100A826FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E338AB4C271A197200A826FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E338AB4F271A197200A826FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E338AB51271A197200A826FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E338AB59271A289600A826FF /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		E338AB5C271A28B300A826FF /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		E338AB61271A28F500A826FF /* AccountTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTableViewController.swift; sourceTree = "<group>"; };
+		E338AB64271A290400A826FF /* AlertsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertsTableViewController.swift; sourceTree = "<group>"; };
+		E338AB67271A292700A826FF /* VideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoViewController.swift; sourceTree = "<group>"; };
+		E338AB69271A299000A826FF /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		E338AB6C271A2A2C00A826FF /* MobilityTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobilityTableViewController.swift; sourceTree = "<group>"; };
+		E338AB6F271A2CD400A826FF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		E338AB71271A327D00A826FF /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		E39A61CF271B642700B82ACC /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E338AB3D271A197100A826FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E338AB72271A327D00A826FF /* AVFoundation.framework in Frameworks */,
+				E338AB70271A2CD400A826FF /* MapKit.framework in Frameworks */,
+				AB81968F94DFB6AEA7C49B16 /* Pods_MuvilApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		276C356627380DC300CB262E /* VIews */ = {
+			isa = PBXGroup;
+			children = (
+				276C356727380DDE00CB262E /* MapTitleView.swift */,
+			);
+			path = VIews;
+			sourceTree = "<group>";
+		};
+		276C356927380F0000CB262E /* PastTrips */ = {
+			isa = PBXGroup;
+			children = (
+				276C356C27380F3200CB262E /* PastTripsTableViewController.swift */,
+			);
+			path = PastTrips;
+			sourceTree = "<group>";
+		};
+		B01DAC2DE6BF1888CA4C47A9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BD2A1C210F4BD0D3F31C2E4B /* Pods-MuvilApp.debug.xcconfig */,
+				6699593DF0FE8DC2D7CBD52D /* Pods-MuvilApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E338AB37271A197100A826FF = {
+			isa = PBXGroup;
+			children = (
+				E338AB42271A197100A826FF /* MuvilApp */,
+				E338AB41271A197100A826FF /* Products */,
+				E338AB6E271A2CD400A826FF /* Frameworks */,
+				B01DAC2DE6BF1888CA4C47A9 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		E338AB41271A197100A826FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E338AB40271A197100A826FF /* MuvilApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E338AB42271A197100A826FF /* MuvilApp */ = {
+			isa = PBXGroup;
+			children = (
+				E39A61CE271B63E800B82ACC /* Networking */,
+				E338AB58271A288000A826FF /* Login */,
+				E338AB57271A1AF800A826FF /* TabBar */,
+				E338AB43271A197100A826FF /* AppDelegate.swift */,
+				E338AB49271A197100A826FF /* Main.storyboard */,
+				E338AB4C271A197200A826FF /* Assets.xcassets */,
+				E338AB4E271A197200A826FF /* LaunchScreen.storyboard */,
+				E338AB51271A197200A826FF /* Info.plist */,
+			);
+			path = MuvilApp;
+			sourceTree = "<group>";
+		};
+		E338AB57271A1AF800A826FF /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				E338AB5B271A28A900A826FF /* Map */,
+				276C356927380F0000CB262E /* PastTrips */,
+				E338AB66271A290700A826FF /* Video */,
+				E338AB63271A28FC00A826FF /* Alerts */,
+				E338AB6B271A2A1600A826FF /* Mobility */,
+				E338AB5E271A28BF00A826FF /* Account */,
+				E338AB69271A299000A826FF /* TabBarViewController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		E338AB58271A288000A826FF /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				E338AB59271A289600A826FF /* LoginViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		E338AB5B271A28A900A826FF /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				E338AB5C271A28B300A826FF /* MapViewController.swift */,
+				276C356627380DC300CB262E /* VIews */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		E338AB5E271A28BF00A826FF /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				E338AB61271A28F500A826FF /* AccountTableViewController.swift */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		E338AB63271A28FC00A826FF /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				E338AB64271A290400A826FF /* AlertsTableViewController.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		E338AB66271A290700A826FF /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				E338AB67271A292700A826FF /* VideoViewController.swift */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		E338AB6B271A2A1600A826FF /* Mobility */ = {
+			isa = PBXGroup;
+			children = (
+				E338AB6C271A2A2C00A826FF /* MobilityTableViewController.swift */,
+			);
+			path = Mobility;
+			sourceTree = "<group>";
+		};
+		E338AB6E271A2CD400A826FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E338AB71271A327D00A826FF /* AVFoundation.framework */,
+				E338AB6F271A2CD400A826FF /* MapKit.framework */,
+				34A65C9E6AA88C20D8F96C0F /* Pods_MuvilApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E39A61CE271B63E800B82ACC /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				E39A61CF271B642700B82ACC /* Client.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E338AB3F271A197100A826FF /* MuvilApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E338AB54271A197200A826FF /* Build configuration list for PBXNativeTarget "MuvilApp" */;
+			buildPhases = (
+				5061FD682A78B19525BC0FDF /* [CP] Check Pods Manifest.lock */,
+				E338AB3C271A197100A826FF /* Sources */,
+				E338AB3D271A197100A826FF /* Frameworks */,
+				E338AB3E271A197100A826FF /* Resources */,
+				0D57043FC0D70464350BD1F5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MuvilApp;
+			productName = MuvilApp;
+			productReference = E338AB40271A197100A826FF /* MuvilApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E338AB38271A197100A826FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					E338AB3F271A197100A826FF = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = E338AB3B271A197100A826FF /* Build configuration list for PBXProject "MuvilApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E338AB37271A197100A826FF;
+			productRefGroup = E338AB41271A197100A826FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E338AB3F271A197100A826FF /* MuvilApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E338AB3E271A197100A826FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E338AB50271A197200A826FF /* LaunchScreen.storyboard in Resources */,
+				E338AB4D271A197200A826FF /* Assets.xcassets in Resources */,
+				E338AB4B271A197100A826FF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D57043FC0D70464350BD1F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MuvilApp/Pods-MuvilApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MuvilApp/Pods-MuvilApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MuvilApp/Pods-MuvilApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5061FD682A78B19525BC0FDF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MuvilApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E338AB3C271A197100A826FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E338AB6D271A2A2C00A826FF /* MobilityTableViewController.swift in Sources */,
+				E338AB65271A290400A826FF /* AlertsTableViewController.swift in Sources */,
+				E338AB5A271A289600A826FF /* LoginViewController.swift in Sources */,
+				E338AB62271A28F500A826FF /* AccountTableViewController.swift in Sources */,
+				E338AB6A271A299000A826FF /* TabBarViewController.swift in Sources */,
+				276C356D27380F3200CB262E /* PastTripsTableViewController.swift in Sources */,
+				E338AB44271A197100A826FF /* AppDelegate.swift in Sources */,
+				276C356827380DDE00CB262E /* MapTitleView.swift in Sources */,
+				E338AB68271A292700A826FF /* VideoViewController.swift in Sources */,
+				E338AB5D271A28B300A826FF /* MapViewController.swift in Sources */,
+				E39A61D0271B642700B82ACC /* Client.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E338AB49271A197100A826FF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E338AB4A271A197100A826FF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E338AB4E271A197200A826FF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E338AB4F271A197200A826FF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E338AB52271A197200A826FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E338AB53271A197200A826FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E338AB55271A197200A826FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD2A1C210F4BD0D3F31C2E4B /* Pods-MuvilApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AU3J78BE58;
+				INFOPLIST_FILE = MuvilApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fapg.MuvilApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E338AB56271A197200A826FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6699593DF0FE8DC2D7CBD52D /* Pods-MuvilApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AU3J78BE58;
+				INFOPLIST_FILE = MuvilApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fapg.MuvilApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E338AB3B271A197100A826FF /* Build configuration list for PBXProject "MuvilApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E338AB52271A197200A826FF /* Debug */,
+				E338AB53271A197200A826FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E338AB54271A197200A826FF /* Build configuration list for PBXNativeTarget "MuvilApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E338AB55271A197200A826FF /* Debug */,
+				E338AB56271A197200A826FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E338AB38271A197100A826FF /* Project object */;
+}

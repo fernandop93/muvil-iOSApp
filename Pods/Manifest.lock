@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (5.4.4)
+  - SVProgressHUD (2.2.5)
+  - TPKeyboardAvoiding (1.3.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - SVProgressHUD
+  - TPKeyboardAvoiding
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - SVProgressHUD
+    - TPKeyboardAvoiding
+
+SPEC CHECKSUMS:
+  Alamofire: f3b09a368f1582ab751b3fff5460276e0d2cf5c9
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TPKeyboardAvoiding: d55b3ea7b362540af8fcf36aa3ed2e87bf210cc6
+
+PODFILE CHECKSUM: 7c6ae0119ccd02483986c66c9c4201adf7288704
+
+COCOAPODS: 1.10.1
